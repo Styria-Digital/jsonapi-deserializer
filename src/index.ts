@@ -1,4 +1,7 @@
-import { assign, isArray, mapValues, merge } from 'lodash';
+import assign from 'lodash/assign';
+import isArray from 'lodash/isArray';
+import mapValues from 'lodash/mapValues';
+import merge from 'lodash/merge';
 
 import {
   Document, Multiple, Serialization,
