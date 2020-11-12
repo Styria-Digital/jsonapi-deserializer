@@ -1,5 +1,5 @@
 {
-  "name": "jsonapi-deserializer",
+  "name": "jsonapi-deserializer-es",
   "version": "0.1.1",
   "description": "JSON API-Compliant Deserializer",
   "main": "es5/src/index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ShadowManu/jsonapi-deserializer"
+    "url": "https://github.com/Styria-Digital/jsonapi-deserializer-es"
   },
   "keywords": [
     "json",
@@ -25,9 +25,9 @@
   "author": "Manuel Pacheco <manuelalejandropm@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ShadowManu/jsonapi-deserializer/issues"
+    "url": "https://github.com/Styria-Digital/jsonapi-deserializer-es/issues"
   },
-  "homepage": "https://github.com/ShadowManu/jsonapi-deserializer",
+  "homepage": "https://github.com/Styria-Digital/jsonapi-deserializer-es#readme",
   "files": [
     "es5"
   ],
