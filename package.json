@@ -32,7 +32,7 @@
     "es5"
   ],
   "dependencies": {
-    "lodash": "^4.14.2",
+    "lodash": "~4.17.21",
     "type-check": "^0.3.2"
   },
   "devDependencies": {
