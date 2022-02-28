@@ -4,7 +4,7 @@ This package presents a simple and fast function to deserialize [JSON API](http:
 
 ## Install
 
-`npm install jsonapi-deserializer --save`
+`npm install jsonapi-deserializer-es --save`
 
 ## Usage
 
@@ -12,14 +12,14 @@ This package presents a simple and fast function to deserialize [JSON API](http:
 var jsonapiDocument = { /* ... */ };
 
 // Node
-var deserialize = require('jsonapi-deserializer').deserialize;
+var deserialize = require('jsonapi-deserializer-es').deserialize;
 var simpleObj = deserialize(jsonapiDocument);
 
 // ES6 - Typescript
-import { deserialize } from 'jsonapi-deserializer';
+import { deserialize } from 'jsonapi-deserializer-es';
 let simpleObj = deserialize(jsonapiDocument);
 ```
 
 ## Run tests
 
-Get the repo (`git clone`), install dependencies (`npm install`) and run the default test suite (`npm test`). There's not many tests since they're being developed as necessary. [Open a new issue](https://github.com/ShadowManu/jsonapi-deserializer/issues/new) if you find incorrect/undesired behavior.
+Get the repo (`git clone`), install dependencies (`npm install`) and run the default test suite (`npm test`). There's not many tests since they're being developed as necessary. [Open a new issue](https://github.com/Styria-Digital/jsonapi-deserializer-es/issues/new) if you find incorrect/undesired behavior.
